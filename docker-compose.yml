@@ -6,8 +6,8 @@ myblog:
     - redis:redis
     - mysql:mysql
   env_file: .env
-  volumes:
-    - .:/myblog
+  #volumes:
+  #  - .:/myblog
   # command: /bin/bash /myblog/docker-entrypoint.sh
   # command: /myblog/manage.py runserver 0.0.0.0:8000
 
